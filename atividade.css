@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(87, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#flexbox {
+    box-shadow: 2px 4px 8px rgb(209, 198, 198);
+    border: rgb(117, 105, 105) solid 4px;
+    border-radius: 20px;
+    width: 350px;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(83, 83, 83);
+    align-items: center;
+    
+}
+
+div {
+    border-radius: 15px;
+    transition: 0.4s;
+    margin: 7px;
+    color: #ffffff;
+    justify-content: center;
+}
+
+div:hover {
+    border-radius: 15px;
+    padding: 9px;
+    transition: 0.4s;
+    background-color: rgb(114, 102, 102);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
