@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(87, 83, 83);
+    background-color: rgb(10, 16, 7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,13 +8,13 @@ body {
 }
 
 #flexbox {
-    box-shadow: 2px 4px 8px rgb(209, 198, 198);
-    border: rgb(117, 105, 105) solid 4px;
+    box-shadow: 2px 4px 8px rgb(255, 255, 255);
+    border: rgb(185, 187, 181) solid 4px;
     border-radius: 20px;
     width: 350px;
     padding: 10px;
     display: flex;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(158, 153, 153);
     align-items: center;
     
 }
