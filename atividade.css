@@ -25,6 +25,7 @@ div {
     margin: 7px;
     color: #ffffff;
     justify-content: center;
+    animation: animacao 2s alternate infinite;
 }
 
 div:hover {
@@ -37,4 +38,12 @@ div:hover {
 a {
     text-decoration: none;
     color: white;
+}
+@keyframes animacao {
+    0% {
+        background-color: gray;
+    }
+    100% {
+        background-color: red;
+    }
 }
